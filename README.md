@@ -189,7 +189,7 @@ kubectl -n istio-system port-forward svc/flagger-grafana 3000:80
 ```
 
 The Istio dashboard URL is 
-http://localhost:3000/d/flagger-istio/istio-canary?refresh=10s&orgId=1&var-namespace=prod&var-primary=backend-primary&var-canary=backend
+    http://localhost:3000/d/flagger-istio/istio-canary?refresh=10s&orgId=1&var-namespace=prod&var-primary=backend-primary&var-canary=backend
 
 ![Canary Deployment](https://raw.githubusercontent.com/weaveworks/flagger/master/docs/screens/demo-backend-dashboard.png)
 
